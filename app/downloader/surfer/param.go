@@ -69,7 +69,12 @@ func NewParam(req Request) (param *Param, err error) {
 		if len(param.header.Get("Content-Type")) == 0 {
 			param.header.Add("Content-Type", "application/x-www-form-urlencoded")
 		}
-		param.body = strings.NewReader(req.GetPostData())
+		if param.header.Get("Content-Type") == "application/json" {
+			param.body = bytes.NewBuffer([]byte(req.GetPostData()))
+		} else {
+			param.body = strings.NewReader(req.GetPostData())
+		}
+
 	case "POST-M":
 		param.method = "POST"
 		body := &bytes.Buffer{}
