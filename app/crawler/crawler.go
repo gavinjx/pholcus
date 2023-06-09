@@ -2,6 +2,7 @@ package crawler
 
 import (
 	"bytes"
+	jsoniter "github.com/json-iterator/go"
 	"math/rand"
 	"runtime"
 	"time"
@@ -142,6 +143,8 @@ func (self *crawler) Process(req *request.Request) {
 		}
 	}()
 
+	r,_:= jsoniter.Marshal(req)
+	logs.Log.Notice(" *     Info  [request][%v]: %+v\n", downUrl, r)
 	var ctx = self.Downloader.Download(sp, req) // download page
 
 	if err := ctx.GetError(); err != nil {
