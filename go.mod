@@ -1,4 +1,4 @@
-module github.com/gavinjx/pholcus
+module github.com/henrylee2cn/pholcus
 
 go 1.20
 
@@ -9,7 +9,6 @@ require (
 	github.com/elazarl/go-bindata-assetfs v1.0.0
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9
-	github.com/henrylee2cn/pholcus v1.3.4
 	github.com/henrylee2cn/pholcus_lib v0.0.0-20180312025545-3ffb61273b75
 	github.com/henrylee2cn/teleport v1.0.0
 	github.com/json-iterator/go v1.1.12
@@ -43,9 +42,12 @@ require (
 	golang.org/x/text v0.3.2 // indirect
 	google.golang.org/appengine v1.6.1 // indirect
 	gopkg.in/Knetic/govaluate.v3 v3.0.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/jcmturner/aescts.v1 v1.0.1 // indirect
 	gopkg.in/jcmturner/dnsutils.v1 v1.0.1 // indirect
+	gopkg.in/jcmturner/goidentity.v3 v3.0.0 // indirect
 	gopkg.in/jcmturner/gokrb5.v7 v7.2.3 // indirect
 	gopkg.in/jcmturner/rpc.v1 v1.1.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
