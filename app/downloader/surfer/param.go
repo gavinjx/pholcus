@@ -66,7 +66,9 @@ func NewParam(req Request) (param *Param, err error) {
 		param.method = method
 	case "POST":
 		param.method = method
-		param.header.Add("Content-Type", "application/x-www-form-urlencoded")
+		if len(param.header.Get("Content-Type")) == 0 {
+			param.header.Add("Content-Type", "application/x-www-form-urlencoded")
+		}
 		param.body = strings.NewReader(req.GetPostData())
 	case "POST-M":
 		param.method = "POST"

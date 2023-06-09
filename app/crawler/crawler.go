@@ -144,7 +144,7 @@ func (self *crawler) Process(req *request.Request) {
 	}()
 
 	r,_:= jsoniter.Marshal(req)
-	logs.Log.Notice(" *     Info  [request][%v]: %+v\n", downUrl, r)
+	logs.Log.Notice(" *     Info  [request][%v]: %+v\n", downUrl, string(r))
 	var ctx = self.Downloader.Download(sp, req) // download page
 
 	if err := ctx.GetError(); err != nil {

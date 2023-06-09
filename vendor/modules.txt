@@ -1,30 +1,44 @@
 # github.com/DataDog/zstd v1.3.6-0.20190409195224-796139022798
+## explicit
 github.com/DataDog/zstd
 # github.com/PuerkitoBio/goquery v1.5.0
+## explicit
 github.com/PuerkitoBio/goquery
 # github.com/Shopify/sarama v1.23.1
+## explicit
 github.com/Shopify/sarama
 # github.com/andybalholm/cascadia v1.0.0
+## explicit
 github.com/andybalholm/cascadia
 # github.com/davecgh/go-spew v1.1.1
+## explicit
 github.com/davecgh/go-spew/spew
 # github.com/eapache/go-resiliency v1.1.0
+## explicit
 github.com/eapache/go-resiliency/breaker
 # github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21
+## explicit
 github.com/eapache/go-xerial-snappy
 # github.com/eapache/queue v1.1.0
+## explicit
 github.com/eapache/queue
 # github.com/elazarl/go-bindata-assetfs v1.0.0
+## explicit
 github.com/elazarl/go-bindata-assetfs
 # github.com/go-sql-driver/mysql v1.4.1
+## explicit
 github.com/go-sql-driver/mysql
 # github.com/golang/snappy v0.0.1
+## explicit
 github.com/golang/snappy
 # github.com/hashicorp/go-uuid v1.0.1
+## explicit
 github.com/hashicorp/go-uuid
 # github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9
+## explicit
 github.com/henrylee2cn/goutil
 # github.com/henrylee2cn/pholcus_lib v0.0.0-20180312025545-3ffb61273b75
+## explicit
 github.com/henrylee2cn/pholcus_lib
 github.com/henrylee2cn/pholcus_lib/IJGUC
 github.com/henrylee2cn/pholcus_lib/alibaba
@@ -57,26 +71,44 @@ github.com/henrylee2cn/pholcus_lib/zolpc
 github.com/henrylee2cn/pholcus_lib/zolphone
 github.com/henrylee2cn/pholcus_lib/zolslab
 # github.com/henrylee2cn/teleport v1.0.0
+## explicit
 github.com/henrylee2cn/teleport
 github.com/henrylee2cn/teleport/debug
 # github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03
+## explicit
 github.com/jcmturner/gofork/encoding/asn1
 github.com/jcmturner/gofork/x/crypto/pbkdf2
+# github.com/json-iterator/go v1.1.12
+## explicit; go 1.12
+github.com/json-iterator/go
 # github.com/kr/beanstalk v0.0.0-20180818045031-cae1762e4858
+## explicit
 github.com/kr/beanstalk
 # github.com/lxn/walk v0.0.0-20190619151032-86d8802c197a
+## explicit
 github.com/lxn/walk
 github.com/lxn/walk/declarative
 # github.com/lxn/win v0.0.0-20190716185335-d1d36f0e4f48
+## explicit; go 1.12
 github.com/lxn/win
+# github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421
+## explicit
+github.com/modern-go/concurrent
+# github.com/modern-go/reflect2 v1.0.2
+## explicit; go 1.12
+github.com/modern-go/reflect2
 # github.com/pierrec/lz4 v0.0.0-20190327172049-315a67e90e41
+## explicit
 github.com/pierrec/lz4
 github.com/pierrec/lz4/internal/xxh32
 # github.com/pkg/errors v0.9.1
+## explicit
 github.com/pkg/errors
 # github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a
+## explicit
 github.com/rcrowley/go-metrics
 # github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
+## explicit
 github.com/robertkrimen/otto
 github.com/robertkrimen/otto/ast
 github.com/robertkrimen/otto/dbg
@@ -85,23 +117,30 @@ github.com/robertkrimen/otto/parser
 github.com/robertkrimen/otto/registry
 github.com/robertkrimen/otto/token
 # github.com/tidwall/gjson v1.3.2
+## explicit; go 1.12
 github.com/tidwall/gjson
 # github.com/tidwall/match v1.0.1
+## explicit
 github.com/tidwall/match
 # github.com/tidwall/pretty v1.0.0
+## explicit
 github.com/tidwall/pretty
 # golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5
+## explicit
 golang.org/x/crypto/md4
 golang.org/x/crypto/pbkdf2
 # golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
+## explicit; go 1.11
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
 golang.org/x/net/internal/socks
 golang.org/x/net/proxy
 # golang.org/x/sys v0.0.0-20190606165138-5da285871e9c
+## explicit; go 1.12
 golang.org/x/sys/windows
 # golang.org/x/text v0.3.2
+## explicit
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
@@ -120,14 +159,23 @@ golang.org/x/text/language
 golang.org/x/text/runes
 golang.org/x/text/transform
 # google.golang.org/appengine v1.6.1
+## explicit
 google.golang.org/appengine/cloudsql
 # gopkg.in/Knetic/govaluate.v3 v3.0.0
+## explicit
 gopkg.in/Knetic/govaluate.v3
+# gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
+## explicit; go 1.11
 # gopkg.in/jcmturner/aescts.v1 v1.0.1
+## explicit
 gopkg.in/jcmturner/aescts.v1
 # gopkg.in/jcmturner/dnsutils.v1 v1.0.1
+## explicit
 gopkg.in/jcmturner/dnsutils.v1
+# gopkg.in/jcmturner/goidentity.v3 v3.0.0
+## explicit
 # gopkg.in/jcmturner/gokrb5.v7 v7.2.3
+## explicit
 gopkg.in/jcmturner/gokrb5.v7/asn1tools
 gopkg.in/jcmturner/gokrb5.v7/client
 gopkg.in/jcmturner/gokrb5.v7/config
@@ -159,14 +207,19 @@ gopkg.in/jcmturner/gokrb5.v7/messages
 gopkg.in/jcmturner/gokrb5.v7/pac
 gopkg.in/jcmturner/gokrb5.v7/types
 # gopkg.in/jcmturner/rpc.v1 v1.1.0
+## explicit
 gopkg.in/jcmturner/rpc.v1/mstypes
 gopkg.in/jcmturner/rpc.v1/ndr
 # gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
+## explicit
 gopkg.in/mgo.v2
 gopkg.in/mgo.v2/bson
 gopkg.in/mgo.v2/internal/json
 gopkg.in/mgo.v2/internal/sasl
 gopkg.in/mgo.v2/internal/scram
 # gopkg.in/sourcemap.v1 v1.0.5
+## explicit
 gopkg.in/sourcemap.v1
 gopkg.in/sourcemap.v1/base64vlq
+# gopkg.in/yaml.v2 v2.4.0
+## explicit; go 1.15
