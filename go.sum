@@ -29,6 +29,8 @@ github.com/hashicorp/go-uuid v1.0.1 h1:fv1ep09latC32wFoVwnqcnKJGnMSdBanPczbHAYm1
 github.com/hashicorp/go-uuid v1.0.1/go.mod h1:6SBZvOh/SIDV7/2o3Jml5SYk/TvGqwFJ/bN7x4byOro=
 github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9 h1:a2H8nokxD0y7RtMAD0c0iyRjIc6PPBopF2/8zw5kFiE=
 github.com/henrylee2cn/goutil v0.0.0-20190807075143-e8afa09140e9/go.mod h1:I9qYeMYwdKC7UFXMECNzCEv0fYuolqLeBMqsmeG7IVo=
+github.com/henrylee2cn/pholcus v1.3.4 h1:03L/WmLiffziLbzxdr6jZhZ/6m9YIOFr8RA7cMj+xbU=
+github.com/henrylee2cn/pholcus v1.3.4/go.mod h1:Zj8sa2z6oB3IGtqLhDQjAP2f3cGzQoIrMnwWGbdo3Vg=
 github.com/henrylee2cn/pholcus_lib v0.0.0-20180312025545-3ffb61273b75 h1:7U0IC0t9UTyFCCbZSx9/QqM3cbxxEY7urA6A9wNV95k=
 github.com/henrylee2cn/pholcus_lib v0.0.0-20180312025545-3ffb61273b75/go.mod h1:MMJXBGY3O0KzzaUWdkU9loxozANv8PetYDZyXpR9YHs=
 github.com/henrylee2cn/teleport v1.0.0 h1:mKUJHCmW/QgB0HYEsEZhWtStPdwpgfF9BDKVgb3q+aw=
